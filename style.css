@@ -48,11 +48,16 @@ nav .join-us{
     border-radius: 10px;
     outline: none;
     border: none;
+    cursor: pointer;
     font-size: 14px;
     font-weight: 500;
     margin-right: 15px;
     color: var(--navbg);
+    transition: 0.2s ease-in;
     background-color: var(--btnbg);
+}
+nav .join-us:hover{
+    background-color: #665c57;
 }
 .other-links{
     display: flex;
