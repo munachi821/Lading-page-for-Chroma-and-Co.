@@ -70,8 +70,9 @@ nav .join-us:hover{
     height: 600px;
     display: flex;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
     background-color: #bebebe;
 }
 .brand-text{
@@ -107,4 +108,59 @@ nav .join-us:hover{
     color: var(--navbg);
     transition: 0.2s ease-in;
     background-color: var(--btnbg);
+}
+.brand-images{
+    width: 550px;
+    height: 500px;
+    display: flex;
+    gap: 20px;
+}
+.brand-images .medium{
+    width: 50%;
+    height: 100%;
+/*     display: flex;
+    flex-direction: column;
+    gap: 10px; */
+}
+.medium .medium-image1{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.medium-image1 .main-image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.medium-image1 .main-image img{
+    width: 100%;
+    border-radius: 20px;
+}
+.medium .medium-image2{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+.medium-image2 .main-image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.brand-images .large{
+    width: 50%;
+    height: 100%;
+}
+.large .large-image{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.large .large-image img{
+    width: 100%;
+    height: 100%;
 }
