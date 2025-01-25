@@ -212,9 +212,11 @@ nav .join-us:hover{
 }
 .card-text h3{
     font-size: 19px;
+    color: var(--btnbg);
 }
 .card-text p{
     font-weight: 500;
+    color: var(--btnbg);
 }
 .card-text button{
     width: 150px;
